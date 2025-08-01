@@ -1,0 +1,59 @@
+# Ignore README
+README.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/
+
+# Env files
+.env
+venv/
+env/
+ENV/
+
+# Docker
+*.log
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python virtual environments
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Logs
+logs/
+*.log
+
+# Static files collected
+staticfiles/
+
+# Media uploads (if any)
+media/
+
+# Ignore IDE/editor project files
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
