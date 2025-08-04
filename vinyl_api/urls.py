@@ -35,5 +35,6 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('vinyl.api.urls')),
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0)), 
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0)),
+    path('silk/', include('silk.urls', namespace='silk')),
 ]

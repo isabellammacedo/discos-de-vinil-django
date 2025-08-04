@@ -40,13 +40,15 @@ INSTALLED_APPS = [
 
     # app
     'vinyl',
-    
+
     # third-party
     'drf_yasg',
     'rest_framework',
+    'silk',
 ]
 
 MIDDLEWARE = [
+    'silk.middleware.SilkyMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
