@@ -6,7 +6,10 @@ from vinyl.api.serializers import AlbumSerializer
 
 class AlbumCreateView(APIView):
 
-    def post(self, request):
+    """
+    View to create a new album.
+    """
+    def create_album(self, request):
         serializer = AlbumSerializer(data=request.data)
         if serializer.is_valid():
 

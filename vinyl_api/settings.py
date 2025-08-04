@@ -40,7 +40,9 @@ INSTALLED_APPS = [
 
     # app
     'vinyl',
-
+    
+    # third-party
+    'drf_yasg',
     'rest_framework',
 ]
 
